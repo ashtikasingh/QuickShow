@@ -1,6 +1,6 @@
 const isoTimeFormat = (dateTime) => {
     const date = new Date(dateTime);
-    const localTime = date.toLocaleDateString('en-US', {
+    const localTime = date.toLocaleTimeString('en-US', {
         date: false,
         hour: '2-digit',
         minute: '2-digit',
