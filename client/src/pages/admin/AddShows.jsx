@@ -45,8 +45,8 @@ const AddShows = () => {
                                     <CheckIcon className='w-4 h-4 text-white' strokeWidth={2.5} />
                                 </div>
                             )} */}
-                            {/* <p className='font-medium truncate'>{movie.title}</p>
-                            <p className='text-gray-400 text-sm'>{movie.release_date}</p> */}
+                            <p className='font-medium truncate'>{movie.title}</p>
+                            <p className='text-gray-400 text-sm'>{movie.release_date}</p>
                         </div>
 
                     ))}
